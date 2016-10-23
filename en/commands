@@ -1,0 +1,2 @@
+*WHAT*TIME*==say "Ir is `LC_TIME="$language.UTF-8" date +%H:%M`"
+*WHAT*DAY*==say "Today is `LC_TIME="$language.UTF-8" date +"%A %d %h %Y"`"
