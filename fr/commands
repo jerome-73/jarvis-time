@@ -1,2 +1,2 @@
-*QUELLE HEURE*==say "il est `LC_TIME="$language.UTF-8" date +%H:%M`"
-*QUEL JOUR*==say "nous sommes le `LC_TIME="$language.UTF-8" date +"%A %d %h %Y"`"
+*QUELLE HEURE*==say "il est $(LC_TIME="$language.UTF-8" date +"%H:%M")"
+*QUEL JOUR*==say "nous sommes le $(LC_TIME="$language.UTF-8" date +"%A %d %h %Y")"
